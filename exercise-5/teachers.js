@@ -1,58 +1,51 @@
-// Import images for teachers
-import johnDoe from "./assets/john-doe.jpg";
-import janeSmith from "./assets/jane-smith.jpg";
-import michaelBrown from "./assets/michael-brown.jpg";
-import emilyJohnson from "./assets/emily-johnson.jpg";
-import davidWilliams from "./assets/david-williams.jpg";
-
 export const TEACHERS = [
   {
-    class: "A",
+    id: "t1",
     firstName: "John",
     lastName: "Doe",
     title: "Math Teacher",
     image: {
-      src: johnDoe,
+      src: "./assets/john-doe.jpg",
       alt: "John Doe - Math Teacher",
     },
   },
   {
-    class: "A",
+    id: "t2",
     firstName: "Jane",
     lastName: "Smith",
     title: "Science Teacher",
     image: {
-      src: janeSmith,
+      src: "./assets/jane-smith.jpg",
       alt: "Jane Smith - Science Teacher",
     },
   },
   {
-    class: "C",
+    id: "t3",
     firstName: "Michael",
     lastName: "Brown",
     title: "History Teacher",
     image: {
-      src: michaelBrown,
+      src: "./assets/michael-brown.jpg",
       alt: "Michael Brown - History Teacher",
     },
   },
   {
-    class: "B",
+    id: "t4",
     firstName: "Emily",
     lastName: "Johnson",
     title: "English Teacher",
     image: {
-      src: emilyJohnson,
+      src: "./assets/emily-johnson.jpg",
       alt: "Emily Johnson - English Teacher",
     },
   },
   {
-    class: "B",
+    id: "t5",
     firstName: "David",
     lastName: "Williams",
     title: "Physics Teacher",
     image: {
-      src: davidWilliams,
+      src: "./assets/david-williams.jpg",
       alt: "David Williams - Physics Teacher",
     },
   },
